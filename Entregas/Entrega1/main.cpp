@@ -1,17 +1,42 @@
 #include <iostream>
+
 using namespace std;
 
-class Personaje
-{
+
+class Personaje {
+private:
+    void operator=(Personaje const&);
 public:
     virtual void correr() = 0;
-    virtual Personaje* clonar() = 0;
+
+    template <class T>
+    static Personaje * factoryMethod() {
+        T * t =  new T();
+        return t;
+    }
+};
+
+class PersonajeEstatico : public Personaje {
+private:
+    PersonajeEstatico() {};
+    PersonajeEstatico(PersonajeEstatico const&);
+public:
+    void correr() {}
+    static PersonajeEstatico& getInstance() {
+        static PersonajeEstatico instance;
+        return instance;
+    }
 };
 
 template <class SubClase>
-class ClonPersonaje : public Personaje
-{
+class ClonPersonaje : public Personaje {
+private:
 public:
+    /*static ClonPersonaje& getInstance() {
+        static ClonPersonaje instance;
+        return instance;
+    }*/
+
     virtual Personaje* clonar()
     {
         return new SubClase(dynamic_cast<SubClase&>(*this));
@@ -67,6 +92,9 @@ int main()
 
     Personaje* pe = v.clonar();
     pe->correr();
+
+    Personaje * lol = Personaje::factoryMethod<Princesa>();
+    lol->correr();
 
     return 1;
 }
