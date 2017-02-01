@@ -17,6 +17,10 @@ private:
     return sum == inpt;
   }
 public:
+  operator int() {
+    return data;
+  }
+
   int& operator=(int const& inpt){
     if(is_perfect(inpt)){
       data = inpt;
@@ -68,8 +72,15 @@ int main(){
   a[1] = 6;
   a[2] = 28;
   a[3] = 25;
+  a[2] = 48;
 
+  std::cout << a[0] << std::endl;
   std::cout << a[1] << std::endl;
+  std::cout << a[2] << std::endl;
+  std::cout << a[3] << std::endl;
+
+  int b = a[1];
+  std::cout << b << std::endl;
 
   return 0;
 }
