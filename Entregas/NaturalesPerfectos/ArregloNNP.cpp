@@ -34,6 +34,7 @@ public:
 class ArregloNNP {
 private:
   NNP * array;
+  NNP trash;
   int size;
 public:
   ArregloNNP() {}
@@ -48,7 +49,7 @@ public:
   NNP& operator[](int index){
     if(index < 0  || index >= size){
       std::cout << "Error: Array out of bounds!" << std::endl;
-      return array[0];
+      return trash;
     }else{
       return array[index];
     }
