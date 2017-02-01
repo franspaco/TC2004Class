@@ -29,6 +29,12 @@ public:
   void test(){
     std::cout << "Test" << std::endl;
   }
+
+  friend std::ostream& operator<<(std::ostream& os, const NNP& thing) {
+    os << thing.data;
+    return os;
+  }
+  
 };
 
 class ArregloNNP {

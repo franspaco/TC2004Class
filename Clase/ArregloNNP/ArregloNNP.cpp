@@ -29,6 +29,12 @@ public:
   void test(){
     std::cout << "Test" << std::endl;
   }
+
+  friend std::ostream& operator<<(std::ostream& os, const NNP& thing) {
+    os << thing.data;
+    return os;
+  }
+
 };
 
 class ArregloNNP {
@@ -62,6 +68,8 @@ int main(){
   a[1] = 6;
   a[2] = 28;
   a[3] = 25;
+
+  std::cout << a[1] << std::endl;
 
   return 0;
 }
