@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Evaluacion1/Inventario.h
+map
+-
+string
+-
+vector
+-
+stack
+-
+algorithm
+-
+Videojuego.h
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Evaluacion1/Videojuego.h
+
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Evaluacion1/Videojuego.h
+iostream
+-
+string
+-
+
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Evaluacion1/main.cpp
+iostream
+-
+Inventario.h
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Evaluacion1/Inventario.h
+
