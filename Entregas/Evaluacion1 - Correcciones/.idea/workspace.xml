@@ -40,10 +40,9 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1223">
-              <caret line="160" column="21" lean-forward="false" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
+            <state relative-caret-position="503">
+              <caret line="195" column="28" lean-forward="false" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="28" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#53#62#0" expanded="true" />
               </folding>
             </state>
@@ -53,8 +52,8 @@
       <file leaf-file-name="Inventario.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Inventario.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="963">
-              <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+            <state relative-caret-position="539">
+              <caret line="116" column="24" lean-forward="false" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
               <folding>
                 <element signature="e#114#128#0" expanded="true" />
               </folding>
@@ -65,8 +64,8 @@
       <file leaf-file-name="Videojuego.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Videojuego.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+            <state relative-caret-position="1386">
+              <caret line="77" column="30" lean-forward="false" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
               <folding>
                 <element signature="e#114#133#0" expanded="true" />
                 <element signature="e#1265#1274#0" expanded="true" />
@@ -329,27 +328,28 @@
       <updated>1486559613386</updated>
       <workItem from="1486559615216" duration="377000" />
       <workItem from="1486560010365" duration="10087000" />
+      <workItem from="1487139923943" duration="1912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10464000" />
+    <option name="totallyTimeSpent" value="12376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="24" width="1849" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15738237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33265513" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33265513" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -383,13 +383,34 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
             <element signature="e#53#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Inventario.cpp">
+    <entry file="file://$PROJECT_DIR$/Inventario.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+          <folding>
+            <element signature="e#114#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Videojuego.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+          <folding>
+            <element signature="e#114#133#0" expanded="true" />
+            <element signature="e#1265#1274#0" expanded="true" />
+            <element signature="e#1380#1394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -397,6 +418,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#53#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inventario.cpp" />
     <entry file="file://$PROJECT_DIR$/Inventario.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -419,19 +451,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Inventario.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Inventario.cpp" />
     <entry file="file:///usr/include/c++/5/bits/stl_algo.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="1963" column="0" lean-forward="false" selection-start-line="1963" selection-start-column="0" selection-end-line="1963" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -443,20 +467,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Inventario.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="963">
-          <caret line="86" column="25" lean-forward="false" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
-          <folding>
-            <element signature="e#114#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Videojuego.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+        <state relative-caret-position="1386">
+          <caret line="77" column="30" lean-forward="false" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
           <folding>
             <element signature="e#114#133#0" expanded="true" />
             <element signature="e#1265#1274#0" expanded="true" />
@@ -465,12 +479,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Inventario.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="116" column="24" lean-forward="false" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
+          <folding>
+            <element signature="e#114#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1223">
-          <caret line="160" column="21" lean-forward="false" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
+        <state relative-caret-position="503">
+          <caret line="195" column="28" lean-forward="false" selection-start-line="195" selection-start-column="28" selection-end-line="195" selection-end-column="28" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
             <element signature="e#53#62#0" expanded="true" />
           </folding>
         </state>
