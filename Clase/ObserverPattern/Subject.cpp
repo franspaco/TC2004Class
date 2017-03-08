@@ -19,3 +19,7 @@ void Subject::updateState(std::string input){
 void Subject::attach(Observer* input){
     obs.push_back(input);
 }
+
+std::string Subject::getName() {
+    return name;
+}

@@ -8,7 +8,10 @@
 #include "Subject.h"
 
 class PenaNieto : public Subject {
-
+public:
+    PenaNieto(){
+        name = "Peña Nieto";
+    }
 };
 
 

@@ -9,7 +9,10 @@
 #include "Observer.h"
 
 class Televisa : public Observer{
-
+public:
+    Televisa(){
+        name = "Televisa";
+    }
 };
 
 

@@ -9,7 +9,7 @@ void Observer::attach(Subject* newPtr){
 
 void Observer::notify(Subject* obs, std::string inpt){
     observees[obs] = inpt;
-    std::cout << "Obs. " << typeid(this).name() << " got: \"" << inpt << "\"" << std::endl;
+    std::cout << name << " got: \"" << inpt << "\" from: " << obs->getName() << std::endl;
 }
 
 std::string Observer::getStatus(Subject* in){

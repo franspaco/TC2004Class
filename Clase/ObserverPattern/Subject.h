@@ -14,11 +14,14 @@ class Observer;
 class Subject {
 protected:
     std::vector<Observer*> obs;
+    std::string name;
     std::string state;
 
     void notifyAll();
 
 public:
+    std::string getName();
+
     void updateState(std::string input);
 
     void attach(Observer* input);

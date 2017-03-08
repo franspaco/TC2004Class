@@ -5,7 +5,6 @@
 #include "NBCNews.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
 
     Reforma r;
     NBCNews nbc;

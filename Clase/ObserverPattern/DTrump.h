@@ -8,7 +8,10 @@
 #include "Subject.h"
 
 class DTrump : public Subject {
-
+public:
+    DTrump(){
+        name = "Donald Trump";
+    }
 };
 
 

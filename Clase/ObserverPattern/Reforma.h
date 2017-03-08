@@ -9,7 +9,10 @@
 #include "Observer.h"
 
 class Reforma : public Observer{
-
+public:
+    Reforma(){
+        name = "Reforma";
+    }
 };
 
 

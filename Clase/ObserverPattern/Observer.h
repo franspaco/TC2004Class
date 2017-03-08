@@ -11,10 +11,9 @@
 #include <typeinfo>
 #include "Subject.h"
 
-class Subject;
-
 class Observer {
 protected:
+    std::string name;
     std::map<Subject*, std::string> observees;
 public:
     void attach(Subject* newPtr);

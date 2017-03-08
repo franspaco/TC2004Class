@@ -9,6 +9,10 @@
 #include "Observer.h"
 
 class NBCNews : public Observer{
+public:
+    NBCNews(){
+        name = "NBC News";
+    }
 
 };
 
