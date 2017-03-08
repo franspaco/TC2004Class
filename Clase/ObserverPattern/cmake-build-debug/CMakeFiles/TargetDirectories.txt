@@ -1,0 +1,3 @@
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Clase/ObserverPattern/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Clase/ObserverPattern/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Clase/ObserverPattern/cmake-build-debug/CMakeFiles/ObserverPattern.dir
