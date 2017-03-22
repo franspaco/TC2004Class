@@ -34,8 +34,6 @@ public:
 int Double::countDouble = 0;
 
 class Visitor {
-protected:
-
 public:
   virtual void visit(Integer*) = 0;
   virtual void visit(Double*) = 0;
@@ -50,7 +48,7 @@ public:
 class CountVisitor : public Visitor {
   friend class Visitor;
 private:
-  PresentacionVisitor(){}
+  CountVisitor(){}
 public:
 
   void visit(Integer* i) {
@@ -65,7 +63,7 @@ public:
 class AddVisitor : public Visitor {
   friend class Visitor;
 private:
-  //PresentacionVisitor(){}
+  AddVisitor(){}
 public:
 
   void visit(Integer* i) {
