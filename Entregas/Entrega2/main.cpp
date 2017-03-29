@@ -6,8 +6,8 @@
  * New documents should be added on NewDocuments.h
  * New printers should be added on lines:
  *  - 70
- *  - 140
  *  - 93
+ *  - 140
  *  - 198
  * (Or otherwise indicated by a line of "####### . . . ")
  *
