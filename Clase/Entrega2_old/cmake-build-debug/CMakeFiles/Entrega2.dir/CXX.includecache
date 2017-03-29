@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Entrega2/Documents.h
+iostream
+-
+string
+-
+Printers.h
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Entrega2/Printers.h
+
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Entrega2/PV.h
+Printers.h
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Entrega2/Printers.h
+Documents.h
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Entrega2/Documents.h
+
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Entrega2/Printers.h
+iostream
+-
+string
+-
+PV.h
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Entrega2/PV.h
+
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Entrega2/main.cpp
+iostream
+-
+Documents.h
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Entrega2/Documents.h
+Printers.h
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/Entrega2/Printers.h
+
