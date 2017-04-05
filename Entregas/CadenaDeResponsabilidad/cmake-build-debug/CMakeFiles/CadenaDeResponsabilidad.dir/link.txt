@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/CadenaDeResponsabilidad.dir/main.cpp.o  -o CadenaDeResponsabilidad 

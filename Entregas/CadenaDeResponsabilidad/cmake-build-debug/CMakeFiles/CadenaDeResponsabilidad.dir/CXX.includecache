@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/CadenaDeResponsabilidad/DNSServer.h
+map
+-
+
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/CadenaDeResponsabilidad/main.cpp
+iostream
+-
+DNSServer.h
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/CadenaDeResponsabilidad/DNSServer.h
+
