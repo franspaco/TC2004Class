@@ -3,7 +3,8 @@
 
 
 void prtReq(DNSServer & dnsServer, std::string domain){
-    std::cout << dnsServer.processRequest(domain) << std::endl;
+    Response r = dnsServer.processRequest(domain);
+    std::cout << r.source << ": " << r.domainName << "\n\t-> " << r.address << std::endl;
 }
 
 int main() {
@@ -36,9 +37,14 @@ int main() {
     prtReq(dns5, "google.com");
     prtReq(dns5, "stackoverflow.com");
     prtReq(dns5, "microsoft.com");
+    prtReq(dns5, "microsoft.com");
     prtReq(dns5, "gmail.com");
     prtReq(dns5, "netflix.com");
     prtReq(dns5, "wikipedia.org");
+    prtReq(dns5, "twitter.com");
+    prtReq(dns5, "twitter.com");
+
+    dns5.prtList();
 
     return 0;
 }
