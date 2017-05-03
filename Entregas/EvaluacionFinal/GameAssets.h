@@ -8,14 +8,10 @@
 #include <iostream>
 #include <vector>
 
-class ExplorationShip;
-class ColonizationShip;
-class ObservationShip;
-class StonyMeteorite;
-class IronMeteorite;
-class DesertPlanet;
-class EarthAnalog;
-
+/*
+ * La superclase que contiene las caracteristicas de todos los assets
+ * y las funciones necesarias para el visitor pattern.
+ */
 class GameAsset {
 protected:
     std::string name;
@@ -25,6 +21,8 @@ public:
 
     // Visitor
     virtual void visit(GameAsset* i) = 0;
+
+
     void print(){
         std::cout << name << std::endl;
     }
@@ -43,14 +41,23 @@ class SpaceCraft : public GameAsset {
 
 };
 
+/*
+ * Game Asset concreto
+ */
 class ExplorationShip : public SpaceCraft {
 public:
+    //Constructord
+    // Integra un indice proveido por el factory method para diferenciar instancias
     ExplorationShip(int index){
         name = "Exploration Ship " + std::to_string(index);
     }
+
+    // Recibe objeto de colisión
     void accept(GameAsset* v) {
         v->visit(this);
     }
+
+    // Visita objeco de colisión
     void visit(GameAsset* i){
         if(this == i) return;
         std::cout << i->getName() << " collided with " << name << std::endl;
@@ -194,6 +201,7 @@ private:
 
 public:
     ~AssetManager(){
+        // Borrar todos los assets de la memoria
         while(!list.empty()){
             GameAsset* temp = list.back();
             list.pop_back();
@@ -201,11 +209,14 @@ public:
         }
     }
 
+    //Regresar instancia del singleton
     static AssetManager* getInstance() {
         static AssetManager instance;
         return &instance;
     }
 
+    // Factory
+    // Crea objetos y regresa pointer a GameAsset
     template <class T>
     GameAsset * createAsset() {
         T * t =  new T(list.size());
@@ -213,6 +224,8 @@ public:
         return t;
     }
 
+    // Factory
+    // Crea objetos y regresa referencia a la subclase solicitada
     template <class T>
     T & createAssetTyped() {
         T * t =  new T(list.size());

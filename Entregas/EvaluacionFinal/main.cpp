@@ -6,20 +6,8 @@ int main() {
 
     AssetManager * am = AssetManager::getInstance();
 
-    /*
-    StonyMeteorite ga1 = am->createAssetTyped<StonyMeteorite>();
-    EarthAnalog ga2 = am->createAssetTyped<EarthAnalog>();
-
-    //Visitor* v1 = Visitor::getVisitor<PrintVisitor>();
-    //Visitor* colv = Visitor::getVisitor<CollisionVisitor>();
-
-    ga1.print();
-
-    ga2.print();
-
-    ga1.accept(&ga2);*/
-
     std::vector<GameAsset*> things;
+
     things.push_back(am->createAsset<ExplorationShip>());
     things.push_back(am->createAsset<ExplorationShip>());
     things.push_back(am->createAsset<ColonizationShip>());
