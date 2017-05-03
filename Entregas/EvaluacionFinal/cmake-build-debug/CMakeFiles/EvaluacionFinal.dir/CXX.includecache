@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/EvaluacionFinal/GameAssets.h
+iostream
+-
+vector
+-
+
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/EvaluacionFinal/main.cpp
+iostream
+-
+GameAssets.h
+/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/EvaluacionFinal/GameAssets.h
+
