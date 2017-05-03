@@ -1,10 +1,10 @@
 //
 // Created by franspaco on 26/04/17.
 //
-
+/*
 #ifndef TAREAFINAL_TRASHTRUCK_H
 #define TAREAFINAL_TRASHTRUCK_H
-
+/*
 #include <iostream>
 #include <map>
 #include <vector>
@@ -79,5 +79,6 @@ static void* myAlloc_run(std::size_t size ) {
 static void* myAlloc_shutdown(std::size_t size) {
     return malloc( size );
 }
-*/
+
 #endif //TAREAFINAL_TRASHTRUCK_H
+*/

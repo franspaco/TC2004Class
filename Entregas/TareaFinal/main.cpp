@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "TrashTruck2.h"
+#include "MemManager.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -14,7 +14,7 @@ int main() {
 
     int* p2 = new int[10]; // guaranteed to call the replacement in C++11
     std::cout << "p2: " << p2 << std::endl;
-    delete[] p2;
+    //delete[] p2;
 
     clearMem();
     return 0;

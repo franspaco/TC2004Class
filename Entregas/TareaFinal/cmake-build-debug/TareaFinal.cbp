@@ -84,10 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/TareaFinal/TrashTruck.h">
+		<Unit filename="/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/TareaFinal/MemManager.h">
 			<Option target="TareaFinal"/>
 		</Unit>
-		<Unit filename="/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/TareaFinal/TrashTruck2.h">
+		<Unit filename="/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/TareaFinal/Old_ignorar.h">
 			<Option target="TareaFinal"/>
 		</Unit>
 		<Unit filename="/home/franspaco/Documents/Tec/Sem4/Sistemas/TC2004Class/Entregas/TareaFinal/main.cpp">
